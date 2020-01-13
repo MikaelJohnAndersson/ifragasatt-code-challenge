@@ -1,0 +1,45 @@
+#movie-title {
+    text-transform: uppercase;
+}
+
+#movie-details img {
+    max-width: 300px;
+    height: auto;
+}
+
+#movie-details-grid {
+    display: flex;
+    margin-top: 1rem;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 479px) {
+    #movie-details-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #movie-details-grid .movie-description {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
+
+#movie-details-grid .movie-description {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+#movie-details-grid p {
+    margin: .5rem 0 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    color: #33384d;
+}
+
+.back-button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-button::before {
+    content: '←';
+}

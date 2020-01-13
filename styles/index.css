@@ -1,0 +1,23 @@
+#movielist {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1rem;
+}
+
+.movielist-item {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.movielist-item:hover {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    transform: scale(1.01);
+}
+
+.movielist-item-title {
+    color: #3d445c;
+    font-family: 'Oswald', sans-serif;
+}
