@@ -19,13 +19,13 @@
         align-items: center;
     }
 
-    #movie-details-grid .movie-description {
+    .movie-description {
         margin-top: 1rem;
         margin-left: 0;
     }
 }
 
-#movie-details-grid .movie-description {
+.movie-description {
     flex: 1;
     margin-left: 1rem;
 }
